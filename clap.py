@@ -1,5 +1,11 @@
 def calpieboi(x):
-    x = "ClaClap" == 2
-    return x
+    string = x
+    substring = "C"
+    count = string.count(substring)
+    return count
+    
 # räkna hur många capital letters det är i
-print(calpieboi("ClaClapClaClap"))
+
+print(calpieboi("ClaClaClaClap!"))
+print(calpieboi("ClClClaClaClaClap!"))
+print(calpieboi("CCClaClClap!Clap!ClClClap!"))
